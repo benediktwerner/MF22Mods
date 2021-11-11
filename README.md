@@ -13,7 +13,7 @@ You can find me (1vader#0203) on the [Pleasing Fungus](https://discord.gg/9nWhhD
 
 See also [Installing BepInEx](https://docs.bepinex.dev/articles/user_guide/installation/index.html) for additional information but the steps below should be enough.
 
-Download BepInEx version 5.4 for your OS from the [BepInEx releases page](https://github.com/BepInEx/BepInEx/releases) and extract it in your games installation directory. You can find this directory in Steam in the game's properties under "local files". You should end up with a directory called `BepInEx` right next to the `MFT3.exe` (or `MFT3.x86_64` on Linux and `MFT3.app` on macOS).
+Download BepInEx version 5.4 for your OS from the [BepInEx releases page](https://github.com/BepInEx/BepInEx/releases) and extract it in the game's installation directory. You can find this directory in Steam in the game's properties under "local files". You should end up with a directory called `BepInEx` right next to the `MFT3.exe` (or `MFT3.x86_64` on Linux and `MFT3.app` on macOS).
 
 Next, download any mods you want to use and place them in the `BepInEx/plugins` directory.
 
@@ -27,7 +27,7 @@ On Linux and Mac you need to perform some additional steps:
   - Edit `executable_name="";` to `executable_name="MFT3.x86_64"` on Linux or `executable_name="MFT3.app"` on macOS
   - Make sure the script is executable by running `chmod u+x run_bepinex.sh` in a terminal in the game directory
 - You should now be able to launch the game with mods by running `./run_bepinex.sh`
-- If you want to be able to launch the game with mods via Steam, additionally follow [these steps](https://docs.bepinex.dev/articles/advanced/steam_interop.html) which usually amounts to setting the game's launch options to `./run_bepinex.sh %command%` in Steam > Manufactoria 2022 > Properties. On macOS you need to specify the full path: `/full/path/to/game/run_bepinex.sh %command%` which you can get by running `pwd` in a terminal in the game directory.
+- If you want to be able to launch the game with mods via Steam, additionally follow [these steps](https://docs.bepinex.dev/articles/advanced/steam_interop.html) which basically amounts to setting the game's launch options to `./run_bepinex.sh %command%` in Steam > Manufactoria 2022 > Properties. On macOS you need to specify the full path: `/full/path/to/game/run_bepinex.sh %command%` which you can get by running `pwd` in a terminal in the game directory.
 
 <!--
 To configure the mods you need to launch the game at least once after installing them. Then you can edit the configuration files in `BepInEx/config`.
