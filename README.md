@@ -24,7 +24,7 @@ On Windows you can now just start the game.
 On Linux and Mac you need to perform some additional steps:
 
 - Modify the `run_bepinex.sh` file which should now be next to the game's executable:
-  - Edit `executable_name="";` to `executable_name="MFT3.x86_64"` on Linux or `executable_name="MFT3.app"`
+  - Edit `executable_name="";` to `executable_name="MFT3.x86_64"` on Linux or `executable_name="MFT3.app"` on macOS
   - Make sure the script is executable by running `chmod u+x run_bepinex.sh` in a terminal in the game directory
 - You should now be able to launch the game with mods by running `./run_bepinex.sh`
 - If you want to be able to launch the game with mods via Steam, additionally follow [these steps](https://docs.bepinex.dev/articles/advanced/steam_interop.html) which usually amounts to setting the game's launch options to `./run_bepinex.sh %command%` in Steam > Manufactoria 2022 > Properties. On macOS you need to specify the full path: `/full/path/to/game/run_bepinex.sh %command%` which you can get by running `pwd` in a terminal in the game directory.
