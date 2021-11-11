@@ -7,6 +7,7 @@ You can find me (1vader#0203) on the [Pleasing Fungus](https://discord.gg/9nWhhD
 ## Mods Overview
 
 - **RightclickDeselect**: Deselect machines when right-clicking instead of rotating them
+- **Zoom**: Adds basic zooming functionality. Slightly jank but it works.
 
 ## Installation
 
@@ -33,3 +34,4 @@ Alternatively, you can install the [BepInEx.ConfigurationManager](https://github
 ### Direct Download Links
 
 - **RightclickDeselect**: [RightclickDeselect.dll v1.0](https://github.com/benediktwerner/MF22Mods/releases/download/rightclick-deselect-v1.0.0/RightclickDeselect.dll)
+- **Zoom**: [Zoom.dll v1.0](https://github.com/benediktwerner/MF22Mods/releases/download/zoom-v1.0.0/Zoom.dll)
